@@ -1,0 +1,1 @@
+Code in this directory is copied from the CARLA Python API (https://github.com/carla-simulator/carla/tree/0.9.9.4/PythonAPI/carla)
