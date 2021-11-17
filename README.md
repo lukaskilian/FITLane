@@ -2,7 +2,7 @@
 FITLane is a **F**ramework for **I**mplementing and **T**esting of **Lane**-keeping systems.
 It was developed in 2020 as a prototype for a framework for evaluating artificial intelligence methods for application in lane-keeping systems by Lukas Kilian as part of a bachelor's thesis at the University of Oldenburg.
 
-The framework is developed in Python and helps to perform automated tests of lane-keeping systems in a software simulation.
+The framework was developed in Python and helps to perform automated tests of lane-keeping systems in a software simulation.
 The framework uses external simulation software. For this purpose, a generic interface was defined and implemented for the [CARLA Simulator](https://github.com/carla-simulator/carla).
 
 FITLane can also be used to generate training data for Deep Learning. In addition to the framework, the repository also contains an end-to-end learning lane-keeping agent.
