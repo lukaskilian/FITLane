@@ -1,2 +1,2 @@
 # FITLane
-FITLane - Framework zum Implementieren und Testen von Lane-Keeping-Systemen
+FITLane - Framework for Implementing and Testing of Lane-keeping systems
