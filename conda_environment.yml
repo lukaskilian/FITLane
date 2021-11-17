@@ -1,0 +1,16 @@
+name: FITLane
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  # FITLane base
+  - python=3.7
+  - numpy
+  - opencv
+  - transforms3d
+  - matplotlib
+  - mypy
+  # E2E-Learning
+  - notebook
+  - scikit-learn
+  - tensorflow-gpu

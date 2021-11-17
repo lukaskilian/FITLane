@@ -1,0 +1,53 @@
+{
+  "simulation_runs": 5,
+  "start_speed": 90,
+  "map": {
+    "type": "simulator_imported_map",
+    "map_name": "Town04"
+  },
+  "ego_vehicle": {
+    "name": "vehicle.tesla.model3",
+    "width": 2.088,
+    "length": 4.694,
+    "sensors": [
+      {
+        "type": "camera",
+        "sensor_id": "front-camera",
+        "name": "sensor.camera.rgb",
+        "image_size_x": 300,
+        "image_size_y": 150,
+        "fov": 100,
+        "mounting_point": {
+          "location": {
+            "x": 1.5,
+            "z": 1.7
+          },
+          "rotation": {
+            "pitch": -15
+          }
+        }
+      }
+    ]
+  },
+  "weather": {
+    "cloudiness": 10.0,
+    "sun_azimuth_angle": 160.0,
+    "sun_altitude_angle": 40.0
+  },
+  "starting_point": {
+    "location": {
+      "x": -487.250031,
+      "y": 240.891418,
+      "z": 0.281942
+    },
+    "rotation": {
+      "yaw": -90.133720
+    }
+  },
+  "termination_conditions": [
+    {
+      "type": "step_limit",
+      "limit": 6750
+    }
+  ]
+}

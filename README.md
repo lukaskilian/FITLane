@@ -10,13 +10,12 @@ FITLane can also be used to generate training data for Deep Learning. In additio
 ### Getting started
 
 - Download CARLA Simulator. FITLane was tested with [CARLA Simulator Version 0.9.9.4](https://github.com/carla-simulator/carla/releases/tag/0.9.9).
-- Download source code.
 - Install dependencies. You can use the package manager conda and the command `conda env create -f conda_environment.yml`
-- Copy CARLA Python package (`.egg` file) to `src\framework\carla_simulator`
+- Copy CARLA Python package (`.egg` file) to `src/framework/carla_simulator/`
 - Copy and adapt `main_template.py`
 - Start CARLA simulator
 - Run `main` Python script
 
 ### Further notes
 The framework is currently not being actively updated.  
-The source code contains annotations in German.
+The source code contains comments and logging messages in German.
